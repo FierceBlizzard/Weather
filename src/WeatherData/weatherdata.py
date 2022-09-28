@@ -9,7 +9,7 @@ City = 'London'
 Country = 'Britian'
 Location = City + ', ' + Country
 
-owm = pyowm.OWM('aba976c535fffdea88d6fdc84eb35947')
+owm = pyowm.OWM('Copy_Key')
 LocData = owm.weather_at_place('San Francisco, US')
 weather = LocData.get_weather()
 
